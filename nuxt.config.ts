@@ -19,7 +19,7 @@ export default defineNuxtConfig({
     '@stefanobartoletti/nuxt-social-share',
     'nuxt-icon',
     'nuxt-og-image',
-    'nitro-cloudflare-dev',
+    // 'nitro-cloudflare-dev',
   ],
 
   app: {
