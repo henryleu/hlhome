@@ -6,9 +6,10 @@
   "scripts": {
     "dev": "nuxt dev",
     "build": "nuxt build",
+    "preview": "nuxt preview",
     "pages:dev": "nuxt dev --dotenv .env",
     "pages:build": "nuxt build",
-    "pages:preview": "nuxt build && DISABLE_NODE_FETCH_NATIVE_WARN=1 NITRO_PRESET=cloudflare-pages NITRO_DEV=true wrangler pages dev",
+    "pages:preview": "DISABLE_NODE_FETCH_NATIVE_WARN=1 NITRO_PRESET=cloudflare-pages NITRO_DEV=true wrangler pages dev",
     "pages:deploy": "nuxt build && wrangler pages deploy",
     "cf-typegen": "wrangler types",
     "postinstall": "nuxt prepare",

@@ -1,7 +1,7 @@
 import type { PageParams } from '~/types/page'
 
 export const siteData = {
-  url: 'https://blog.henryleu.pages.dev',
+  url: 'https://henryleu.pages.dev',
   title: '猩空',
   description:
     '个人博客网站，分享一些关于软件开发相关的文章，话题包括编程语言、技术架构、人工智能、云计算、边缘计算、以及一些前沿技术的思考和探索。',
@@ -14,7 +14,7 @@ export const authorData = {
   name: 'Henry Leu',
   description:
     '技术爱好者，软件架构师，创业者。喜欢健身、历史和军事。预祝中国登月成功，那天我们一起弹冠相庆，见证历史。',
-  image: '/xingkong.webp',
+  image: '/xingkong.png',
   connect:
     '技术美学强迫症中晚期，喜欢探索技术背后的数理逻辑。拒绝阴谋论和认知失调，希望和你交流探讨，一起认知升级。',
   email: 'honglileu@gmail.com',
@@ -48,7 +48,7 @@ export const homePage = {
   title: '欢迎阅读',
   description:
     '这是一个 IT 老兵的个人博客。包括一些关于软件开发、架构设计、人工智能、云计算、边缘计算，以及前沿科技的探索和思考。偶尔一点键政评论。',
-  image: '/xingkong.webp',
+  image: '/xingkong.png',
 }
 
 export const blogsPage = {

@@ -51,21 +51,14 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
-      // routes: ['/blogs', '/tags', '/rss.xml'],
-      autoSubfolderIndex: false,
-      ignore: ['/', '/about', '/api/', '/admin/'],
+      routes: ['/', '/blogs', '/tags', '/about', '/rss.xml'],
+      autoSubfolderIndex: true,
+      ignore: ['/api/', '/admin/'],
     },
     experimental: {
-      wasm: true, // 启用 WASM 支持
+      wasm: true,
     },
     preset: 'cloudflare-pages',
-    // storage: {
-    //   data: {
-    //     driver: 'fs',
-    //     base: './data',
-    //   },
-    // },
-    cloudflareDev: {},
   },
 
   colorMode: {
@@ -123,6 +116,6 @@ export default defineNuxtConfig({
     robotsTxt: true,
     disallowNonIndexableRoutes: true,
     robotsDisabledValue: 'noindex, nofollow',
-    sitemap: 'https://blog.henryleu.pages.dev/sitemap.xml',
+    sitemap: 'https://henryleu.pages.dev/sitemap.xml',
   },
 })

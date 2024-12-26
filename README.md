@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://blog.henryleu.pages.dev" target="_blank">
+  <a href="https://henryleu.pages.dev" target="_blank">
     <img  src="./assets/images/dark.png">
   </a>
 </p>
@@ -37,7 +37,7 @@ Nuxt Blog built with [Nuxt3](https://nuxt.com), [Nuxt-Content2](https://content.
 ## Preview
 
 <p align="center">
-  <a href="https://blog.henryleu.pages.dev" target="_blank">
+  <a href="https://henryleu.pages.dev" target="_blank">
     <img width="1090" src="./assets/images/preview1.png">
     <img width="1090" src="./assets/images/preview2.png">
     <img width="1090" src="./assets/images/preview3.png">
@@ -49,7 +49,7 @@ Nuxt Blog built with [Nuxt3](https://nuxt.com), [Nuxt-Content2](https://content.
 
 ## Demo
 
-https://blog.henryleu.pages.dev
+https://henryleu.pages.dev
 
 > Hosted on [Cloudflare Pages](https://pages.cloudflare.com/): `npm run build`
 
