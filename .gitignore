@@ -1,0 +1,17 @@
+# Nuxt dev/build outputs
+.output
+.nuxt
+.data
+# Node dependencies
+node_modules
+# System files
+
+# Misc
+.DS_Store
+.fleet
+.idea
+
+*.log
+.env
+.wrangler
+dist/
