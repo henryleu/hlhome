@@ -33,11 +33,11 @@ defineOgImageComponent('About', {
             </div>
           </div>
           <div class="sm:hidden block col-span-3 pb-5 dark:text-[#F1F2F4]">
-            <div class="relative aspect-[25/23]">
+            <div class="relative aspect-[10/10]">
               <NuxtImg
                 :src="aboutPage.image"
-                width="125"
-                height="115"
+                width="500"
+                height="500"
                 quality="50"
                 class="rounded-md absolute inset-0 w-full h-full object-cover"
               />
@@ -50,10 +50,10 @@ defineOgImageComponent('About', {
         <p class="text-base sm:text-xl">{{ aboutPage.aboutAuthor }}</p>
       </div>
       <div class="hidden sm:block col-start-8 col-span-3">
-        <div class="relative aspect-[9/10]">
+        <div class="relative aspect-[10/10]">
           <NuxtImg
             :src="aboutPage.image"
-            width="450"
+            width="500"
             height="500"
             quality="50"
             class="rounded-md absolute inset-0 w-full h-full object-cover"
